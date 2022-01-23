@@ -1,0 +1,58 @@
+.site-intro{
+  background-image: url("../../img/intro-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 805px);
+  border-bottom: 2px solid  #E5E5E5;
+}
+.intro{
+  padding-top: 90px;
+  padding-bottom: 61px;
+}
+.intro__content{
+  width: 490px;
+}
+.intro__title-box{
+  width: 331px;
+}
+.intro__title{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin: 30px 0px;
+  margin-bottom: 30px;
+}
+
+.intro__text-box{
+  width: 490px;
+}
+.intro__text{
+  margin-bottom: 30px;
+  padding: 0px 40px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+}
+.intro__link{
+  display: block;
+  width: 260px;
+  margin-bottom: 183px;
+  padding: 12px 38.5px; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ee7f79;
+  color: #FFFFFF; 
+  transition: background-color 0.3s ease-in-out ;
+  &:hover{
+    background-color: #EA625C;
+  }
+}
