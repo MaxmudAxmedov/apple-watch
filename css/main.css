@@ -474,13 +474,7 @@ template {
   font-size: 15px;
   line-height: 150%;
   color: #666666;
-  outline: none;
   margin-left: 5px;
-}
-
-.form__input:focus {
-  border: 1px solid #909090;
-  border-radius: 8px;
 }
 
 .site-intro {
