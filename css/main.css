@@ -601,7 +601,6 @@ template {
   width: 8px;
   height: 8px;
   background: #DDDDDD;
-  border-radius: 50%;
 }
 
 .box {
@@ -650,6 +649,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 70px;
+  padding-top: 70px;
 }
 
 .brand__content {
@@ -666,6 +666,7 @@ template {
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 50px;
+  line-height: 120%;
   color: #000000;
 }
 
@@ -705,12 +706,11 @@ template {
 }
 
 .site-control {
-  width: 1250px;
   height: 830px;
   margin: 0 auto;
   background-image: url("../../img/runners.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 .control {
